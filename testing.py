@@ -23,10 +23,10 @@ def sendstream(delay, pump, *args):
 
 def run_pump():
 	#Do your thing
-	sendstream(100, 0, 200,0,0,0,200,0)
-	sendstream(100, 2, 200,0,0,0,200,0)
-	sendstream(100, 3, 200,0,0,0,200,0)
-	sendstream(100, 1, 200,0,0,0,200,0)
+	sendstream(500, 0, 254,254,254,0)
+	sendstream(500, 2, 100,0,0,0,200,0)
+	sendstream(500, 3, 100,0,0,0,200,0)
+	sendstream(500, 1, 100,0,0,0,100,0)
 	pass
 
 def main():
